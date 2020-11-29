@@ -3,8 +3,7 @@ from pip._vendor.distlib.compat import raw_input
 from scapy.all import *
 from subprocess import call
 import time
-#DC:F7:56:
-#E0:99:71:1B:0D:75
+
 from scapy.layers.l2 import ARP
 
 op = 1  # Op code 1 for ARP requests
